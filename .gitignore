@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.out
+*.exe
+build/
+dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Audio recordings
+*.m4a
+*.mp3
+*.wav
